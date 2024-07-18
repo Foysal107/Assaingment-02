@@ -8,13 +8,172 @@
 }
 
 
+.color{
+  background-color:#727272;
+}
+
+.bmi-color{
+  color: white;
+
+}
+/* text center  */
+.text{
+  text-align: center;
+}
+.text{
+  font-style: italic;
+}
+
+.bmi-calculator{
+  justify-content: space-around;
+  width: 100%;
+  
+}
+/* from container */
+.from-container{
+  width: fill;
+  height: 48px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: black;
+}
+
+/* exercise-container */
+.exercise-container{
+ width: 1060px;
+
+}
+/* rows */
+.rows{
+  width: fill;
+  height: fill;
+}
+.row-1{
+  width: 250px;
+  height: fit-content;
+
+}
+.row-2{
+  width: 539px;
+  height: 256px;
+  
+
+}
+.row-3{
+  width: 388px;
+  height: 214px
+
+  
+
+}
+.row-4{
+  width: 425px;
+  height: fill;
+  
+
+}
+.row-5{
+  width: 288px; ;
+
+  height: fill ;
+
+}
+.row-6{
+  width:347px ;
+height: fill;
+}
 
 
+/* tabel  */
+table {
+  width: 310px;
+  height: 216px;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid ;
 
+  text-align: center;
+ 
+}
+/* trainer-image style  */
+.trainer-image{
+  height: 272px;
+  width: 300px;
+  border-radius: 18px
+  ;
+align-items: center;
 
+}
+/* team image  */
+.team-bg-color{
+  background-color: #727272;
+}
+.image{
+  gap:10px;
+  padding: 20px;
+  background-color: #727272;
+ 
+
+}
 /* shared styles */
+.tabel-container{
+  border: 1px solid rgba(255, 255, 255, 0.5);;
+
+}
+.background{
+
+
+}
+.exta-size{
+  font-size: 4rem;
+  color: white;
+
+}
+.btn{
+  background-color: #E6533C;
+  width: 222px;
+  border-radius: 42px;
+  border: none;
+  height: 54px;
+
+}
+.change-container{
+font-size:xx-large
+;
+color: aliceblue;
+line-height: 120%;
+
+}
+
+.second-container{
+text-align: center;
+}
+.pragaraph-color{
+  color: rgba(255, 255, 255, 0.5);
+
+
+}
+.bg-{
+color: aliceblue;
+}
+.bacground-color{
+  background-color:black;
+}
+.run-picture{
+  width: 366px;
+  height: 312px;
+  border-radius: 18px;
+
+}
+.rediation{
+  border-radius: 50%;
+}
 .display-flex{
     display: flex;
+   align-items: center;
+   margin-top:30px;
+
   }
 
 .btn-primary{
@@ -47,27 +206,18 @@ main{
   border-radius: 60px;
   color: whitesmoke;
   padding: 7px;
-  
-}
-.text{
-    
-
-}
+  }
   /* dark02 */
   .text-white{
     color:whitesmoke;
   }
-  main > section{
-margin-top: 130px;
-
-
-  }
+ 
   /* dark03 */
   .text-light-gray{
     color: #727272;
   }
   /* header styles */
-  .bg-light{
+  .bg-dark{
     background-color:#111111;
   }
 
@@ -98,168 +248,22 @@ margin-top: 130px;
     max-width: 1440px;
     margin: 0 auto;
   }
-  /* banner related */
-  .banner-content{
-    max-width: 850px;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 50px;
-  }
-  .banner-title{
-    font-weight: 700;
-    font-size: 4rem;
-
-  }
-  .banner-img{
-
-    width:395px 580px;
-  }
-  .banner-description{
-    color: #FFFFFF;
-
-  }
-  /* teams and feature related styles */
-  .teams{
-    align-items: center;
-  }
-  .team-img-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-  }
-
-  .our-features{
-  margin-left: 130px;
-  max-width: 530px;
-  }
-.section-title{
-  font-size: 2.8rem;
-  font-weight: 700;
-  
-}
-/* some facts */
-.facts-container{
-  display: grid;
-  grid-template-columns: repeat(4,1fr );
-
-}
-.fact-description{
-  max-width: 540 px;
-}
-.fact-card{
-
-  border: 1px solid yellowgreen;
-width: 140px;
-height: 240px;
-border-radius: 8px;
-align-items: center;
-justify-content: center;
-text-align: center;
-}
-.fact-number{
-  font-size: 2.8rem;
-  font-weight: 600;
-  margin-top:  5px; 
-  margin: 10px;
-}
-.fact-name{
-  font-size: 1.25rem;
-  font-weight: 600;
-  margin-top: 10px;
-}
-/* sponsor */
-.sponsor-info{
-  max-width: 540px;
-  margin: 
-  50px auto;
-  text-align: center;
-}
-.sponsor-companies{
-  display: grid;
-  grid-template-columns: repeat(5,1fr);
-}
-.sponsor-companies img{
-  filter: grayscale(100%)
-}
-
-/* features section  */
-
-.features{
-  gap: 140px;
-}
-
-#feature-section-title{
-  border-left: 5px solid #FF900E;
-  padding-left: 20px;
-}
-.feature-card{
-  padding: 30px;
-  box-shadow: 0 4px 30px 0 rgba(0, 0,0,0.06);
-  margin-bottom: 20px;
-  border-radius: 8px;
-}
-.feature-card.feature-title{
-  font-weight: 600;
-  font-size: 1.25rem;
-  margin-top: 0px;
-  margin-bottom: 0px;
- 
-}.featued-architect img{
-  width: 100%;
-}
-
-#experience-badge{
-  margin: 45px 42px;
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-left: 0px;
-  margin-top: -100px;
-   
-}
-#experience-year{
-  font-size: 4rem;
-  font-weight: 700;
-}
-.footer-containt{
- background-color: #FF900E;
- text-align: center;
- border-radius: 8px;
- margin-top: 20px;
-}
-
 
   /* resposibe media query */
  @media screen and (max-width:576px){
   .navbar
   .nav-links
   .features
+  .banner
   .teams{
 
     flex-direction: column;
+    grid-template-columns: repeat(1,1fr);
 
   }
   
-  .team-img-container
-  .facts-container
-  .sponsor-companies
-  {
-  grid-template-columns: repeat(1 ,1fr);
-
-
-  }
-  .our-features{
-    margin-left: 20px;
-  }
-  #experience-badge{
-    margin-top: 20px;
-    margin-left: 20px;
-  }
-
-.facts-container
-.sponsor-companies
-{
-  justify-items: center;
-  gap: 24px;
-}
+ 
+  
 
  }
  /* medum size device */
