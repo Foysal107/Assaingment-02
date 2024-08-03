@@ -8,12 +8,24 @@
 }
 
 
+.display-grid{
+display: grid;
+
+grid-template-columns: 1,3frs;
+}
 .color{
   background-color:#727272;
 }
 
 .bmi-color{
   color: white;
+
+}
+.from-selection{
+
+flex-wrap: wrap;
+}
+.from-main{
 
 }
 .collage-picture{
@@ -264,22 +276,48 @@ main{
     max-width: 1440px;
     margin: 0 auto;
   }
+  .vedio-tutorial-color{
+  
+
+  }
+  /* primary box */
   .primary-box{
     color: aliceblue;
-    background-color: transparent;
+    background-color: rgba(0, 0, 0, 0.238);
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+border-radius: 20px;
+    right: 590px;
+    top: 550px;
+
+  }
+
+  .primary-box2{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.238);
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+border-radius: 20px;
+    right: 210px;
+    top: 300px;
+    
 
     
+  }
+  .speacial-box{
+    background-color: #E6533C;
+    border: 1px solid redd;
 
   }
   .primary-box{
     position: absolute;
 
   }
-    
-  
+  .hamber-color{
+display:none;
+  }
 
   /* resposibe media query */
- @media screen and (max-width:576px){
-  
-
-}
+ 
