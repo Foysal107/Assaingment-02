@@ -1,7 +1,6 @@
 @media screen and (max-width:576px) {
-
-    .navbar 
- .responsive-images{
+.navbar 
+ {
 
         flex-direction: column;
 
@@ -18,5 +17,24 @@
     .navbar {
         flex-direction: row;
     }
+    .responsive{
+        flex-direction: column;
+    }
+    .banner-img{
+        flex-direction: column;
+       
+    }
+    .picture-hide{
+        display: none;
+    
+    }
+    .mobaile-device{
+       display:grid;
+       grid-template-rows: repeat(2,1fr);
+     
 
+       
+
+    }
+    
 }
