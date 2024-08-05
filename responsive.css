@@ -79,4 +79,9 @@
     height: auto;
     display: block;
 }
+#calculator-id{
+    width: 50%;
+    height: 100%
+    ;
+}
 }

@@ -8,6 +8,14 @@
 }
 
 
+/* meam font  */
+.homemade-apple-regular {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/*  */
+
 
 .carcle{
   width: 50px;
@@ -160,7 +168,7 @@ align-items: center;
 .grid-item {
   position: relative;
   width: 100%;
-  height: auto;
+  height:;
 }
 .grid-item img {
   width: 100%;
@@ -346,15 +354,24 @@ display:none;
   width: 
   400px;
   height: 48px;
-  background-color: ;
+  
   border-radius: 19px;
-  gap: ;
+
 } 
 #calculator-id{
-  width: 
-  100px;
-  height: 100%;
-  background-color: ;
+  width: 200px;
+  height: 45px;
+align-items: center;
   border-radius: 19px;
-  gap: ;
+  
+}
+/* calculator-button */
+.btn-calculate{
+  width: 200px;
+  height: 38px;
+  border-color:#E6533C;
+border-radius: 19px;
+  background-color: #E6533C;
+ margin-left: 10px;
+  color: white;
 }
