@@ -6,17 +6,31 @@
     font-variation-settings:
       "slnt" 0;
 }
+
+
+
+.carcle{
+  width: 50px;
+  height: 50px;
+  background-color: #E6533C;
+  border-radius: 50%;
+
+
+}
+/* butoon  */
+
+.common-button{
+  height:54px;
+  width: 
+  224px;
+
+}
+/*  */
 /* trainerimages */
 
 .image-radiation{
 border-radius: 50%;
 gap: 10px;
-}
-
-.display-grid{
-display: grid;
-
-grid-template-columns: 1,3frs;
 }
 .color{
   background-color:#727272;
@@ -172,7 +186,7 @@ align-items: center;
 .btn{
   background-color: #E6533C;
   width: 222px;
-  border-radius: 42px;
+  border-radius: 45px;
   border: none;
   height: 54px;
 
@@ -222,7 +236,7 @@ color: aliceblue;
   padding: 1px 25px;
   font-size: 1rem;
   font-weight: 224;
-  border-radius: 8px;
+  border-radius: 20px;
   border: none;
 }
 .normal-button{
@@ -231,9 +245,10 @@ color: aliceblue;
   padding: 1px 25px;
   font-size: 1rem;
   font-weight: 224;
-  border-radius: 8px;
+  border-radius: 20px;
   color: whitesmoke;
   border: 1px solid ;
+  margin-left: 15px;
 
 }
 main{
@@ -317,11 +332,7 @@ border-radius: 20px;
 
     
   }
-  .speacial-box{
-    background-color: #E6533C;
-    border: 1px solid redd;
-
-  }
+ 
   .primary-box{
     position: absolute;
 
@@ -330,5 +341,20 @@ border-radius: 20px;
 display:none;
   }
 
-  /* resposibe media query */
- 
+  /* use id */
+#calculator-id-big{
+  width: 
+  400px;
+  height: 48px;
+  background-color: ;
+  border-radius: 19px;
+  gap: ;
+} 
+#calculator-id{
+  width: 
+  100px;
+  height: 100%;
+  background-color: ;
+  border-radius: 19px;
+  gap: ;
+}
