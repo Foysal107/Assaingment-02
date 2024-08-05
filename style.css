@@ -370,3 +370,13 @@ border-radius: 19px;
  margin-left: 10px;
   color: white;
 }
+.footer-line{
+  border: 1px solid #727272;
+  width: 80%;
+margin-left: 20%;
+
+}
+.center{
+
+text-align: center;
+}
