@@ -150,25 +150,20 @@ align-items: center;
 }
 .tabel-container{
   border: 1px solid rgba(255, 255, 255, 0.5);;
-
 }
 .background{
   justify-content: space-around;
   margin: 30px;
-  
-
-
 }
 /* trainer */
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns */
-  gap: 10px; /* Space between grid items */
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px; 
 }
 .grid-item {
   position: relative;
   width: 100%;
-  height:;
 }
 .grid-item img {
   width: 100%;
